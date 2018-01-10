@@ -4,7 +4,7 @@ from json import dump
 #opens the file dialogue window
 root = Tk()
 root.withdraw()
-#only accepts json files
+#only accepts lang files
 file_path = filedialog.askopenfilename(filetypes = [("lang file", "*.lang")])
 
 #splits the properties, and puts them straight into a dictionary
